@@ -1,0 +1,109 @@
+/* Réinitialisation des marges et des rembourrages */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de base de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+}
+
+/* Lien du logo dans l'en-tête */
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 40px; /* Largeur souhaitée */
+    height: 40px; /* Hauteur souhaitée */
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: end;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Contenu principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #666;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Paragraphes */
+p {
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Articles */
+article {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Lien du pied de page */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Style the main content and aside to use flexbox layout */
+main {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow for wrapping to a new line if needed */
+    justify-content: space-between; /* Push elements to the sides */
+}
+
+aside {
+    border: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 10px;
+    flex: 0 0 30%; /* Set a fixed width for the aside section (adjust as needed) */
+    margin-left: 20px; /* Add some spacing between the main and aside */
+}
